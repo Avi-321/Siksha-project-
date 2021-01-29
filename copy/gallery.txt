@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shiksha</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Shiksha, Kurukshetra, NIT College">
+ <meta name="author" content="Team Hades">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+  <img src="images/shiksha.png" id="head_img">
+  <img src="images/hands.jpg">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="login.html">Login</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+			
+		</ul> 
+	</nav>
+<h1 style="color: #b22222;"><u>Shikshangan</u></h1>
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/shikshangan.jpg">
+    <img src="images/Gallery/shikshangan.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Dance Competition</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/shikshangan3.jpg">
+    <img src="images/Gallery/shikshangan3.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Republic Day</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/make_wish.jpg">
+    <img src="images/Gallery/make_wish.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Make a Wish</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/sports_day.jpg">
+    <img src="images/Gallery/sports_day.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Sports Day</div>
+</div>
+<div id="fix"></div>
+
+<hr>
+<h1 style="color: #b22222;"><u>Workshops</u></h1>
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/science_workshop.jpg">
+    <img src="images/Gallery/science_workshop.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Science Workshop</div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/art_workshop.jpg">
+    <img src="images/Gallery/art_workshop.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Art Workshop</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/edu_tour.jpg">
+    <img src="images/Gallery/edu_tour.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Educational Tour</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/kite_comp.jpg">
+    <img src="images/Gallery/kite_comp.jpg" alt="Database" width="300" height="200">
+  </a>
+  <div class="desc">Kite Competition</div>
+</div>
+<div id="fix"></div>
+
+<hr>
+<h1 style="color: #b22222;"><u>Our Team</u></h1>
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/team1.jpg">
+    <img src="images/Gallery/team1.jpg" width="300" height="200">
+  </a>
+  <div class="desc"></div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/team2.jpg">
+    <img src="images/Gallery/team2.jpg" width="300" height="200">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/team3.jpg">
+    <img src="images/Gallery/team3.jpg" width="300" height="200">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/Gallery/team4.jpg">
+    <img src="images/Gallery/team4.jpg" alt="Database" width="300" height="200">
+  </a>
+  <div class="desc"></div>
+</div>
+<div id="fix"></div>
+
+<hr>
+<footer class="mainFooter">
+	<p>Copyright &copy <a href="https://www.facebook.com/shikshanitkkr/" style="">Shiksha</a> </p>
+  <center>
+  <a href="https://www.facebook.com/shikshanitkkr/"><img id="fb" src="images/facebook.png"></a>
+  <a href="https://twitter.com/nitkurukshetra?lang=en"><img id="twitter" src="images/twitter.png"></a>
+  <a href="https://www.youtube.com/channel/UCct6Ha1IT5Dp9DaJh85f8mA"><img id="youtube" src="images/youtube.png"></a>
+	</center>
+  <p style="text-align: center;"><u><a href="shiksha.pptx">Download Brochure</a></u></p>
+</footer>
+<script type="text/javascript">
+	document.title="Course";
+</script>
+</body>
+</html>

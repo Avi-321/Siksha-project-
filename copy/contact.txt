@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shiksha</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Shiksha, 
+kurukshetra, NIT College">
+ <meta name="author" content="Team Hades">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+  <img src="images/shiksha.png" id="head_img">
+  <img src="images/hands.jpg">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6914.2115487988085!2d76.815473!3d29.947636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14d79f026b1ae4ec!2sNational+Institute+of+Technology%2C+Kurukshetra!5e0!3m2!1sen!2sin!4v1555021984264!5m2!1sen!2sin" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div id="contact">
+<h3>Contact:</h3>
+<h4>NIT Kurukshetra<br>
+Kirmach Road,Thanesar<br>
+Harayana-136199</h4><br>
+Phone : +91-1234567890<br>
+Email :  <a href="http://nitkkr.ac.in/" target="_blank"><i><u>www.nitkkr.ac.in</u></i></a><br>
+</div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong style="color: #123">If you are student please enter your number:</strong>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+<hr>
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="https://www.facebook.com/shikshanitkkr/" style="">Shiksha</a> </p>
+  <center>
+  <a href="https://www.facebook.com/shikshanitkkr/"><img id="fb" src="images/facebook.png"></a>
+  <a href="https://twitter.com/nitkurukshetra?lang=en"><img id="twitter" src="images/twitter.png"></a>
+  <a href="https://www.youtube.com/channel/UCct6Ha1IT5Dp9DaJh85f8mA"><img id="youtube" src="images/youtube.png"></a>
+  </center>
+  <p style="text-align: center;"><u><a href="shiksha.pptx">Download Brochure</a></u></p>
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
